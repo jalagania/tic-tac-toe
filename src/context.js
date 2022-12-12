@@ -336,7 +336,6 @@ function AppProvider(props) {
   useEffect(() => {
     if (gameAgainstCPU && !gameIsOver) {
       if (playerPickedX && !turnIsX) {
-        console.log("yup");
         setTimeout(() => {
           makeComputerMove("o");
           setTurnIsX(true);
@@ -344,7 +343,6 @@ function AppProvider(props) {
       }
       if (!playerPickedX && turnIsX) {
         setTimeout(() => {
-          console.log("ok");
           makeComputerMove("x");
           setTurnIsX(false);
         }, 1000);
