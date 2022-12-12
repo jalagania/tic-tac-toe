@@ -1,0 +1,125 @@
+.modal-window,
+.modal-bg {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.modal-window {
+  z-index: 10;
+}
+
+.modal-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-text-box {
+  padding: 4rem;
+  background-color: rgba(31, 54, 65, 0.9);
+  text-align: center;
+  position: relative;
+  margin-top: 35vh;
+  z-index: 10;
+}
+.modal-text-box button {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1.5rem;
+  color: #1a2a33;
+  letter-spacing: 1px;
+  border-radius: 1rem;
+}
+@media (max-width: 26.57em) {
+  .modal-text-box {
+    padding: 3rem;
+  }
+}
+@media (max-width: 23.44em) {
+  .modal-text-box {
+    padding: 2.8rem;
+  }
+}
+
+.modal-result-text {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #a8bfc9;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.modal-winner-box {
+  margin: 1.5rem 0 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+@media (max-width: 26.57em) {
+  .modal-winner-box img {
+    width: 3rem;
+  }
+}
+
+.modal-winner-text {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+@media (max-width: 26.57em) {
+  .modal-winner-text {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 23.44em) {
+  .modal-winner-text {
+    font-size: 2.3rem;
+  }
+}
+
+.modal-restart-text {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #a8bfc9;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin-bottom: 3rem;
+}
+@media (max-width: 26.57em) {
+  .modal-restart-text {
+    font-size: 3rem;
+  }
+}
+
+.btn-modal-gray {
+  margin-right: 1.5rem;
+  background-color: #a8bfc9;
+  box-shadow: inset 0 -0.4rem 0 #6b8997;
+}
+.btn-modal-gray:hover {
+  background-color: #dbe8ed;
+}
+
+.btn-modal-yellow {
+  background-color: #f2b137;
+  box-shadow: inset 0 -0.4rem 0 #cc8b13;
+}
+.btn-modal-yellow:hover {
+  background-color: #ffc860;
+}
+
+.x-color {
+  color: #31c3bd;
+}
+
+.o-color {
+  color: #f2b137;
+}
+
+.t-color {
+  color: #a8bfc9;
+}

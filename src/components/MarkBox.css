@@ -1,0 +1,35 @@
+.mark-box {
+  width: 14rem;
+  height: 14rem;
+  background-color: #1f3641;
+  box-shadow: inset 0px -0.8rem 0px #10212a;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 26.57em) {
+  .board-box img {
+    width: 4rem;
+  }
+}
+@media (max-width: 26.57em) {
+  .board-box {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+.winner-x-bg {
+  background-color: #31c3bd;
+}
+
+.winner-o-bg {
+  background-color: #f2b137;
+}
+
+.winner-x-icon,
+.winner-o-icon {
+  filter: brightness(0) saturate(1) opacity(0.8);
+}

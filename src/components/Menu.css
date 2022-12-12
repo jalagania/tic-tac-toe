@@ -1,0 +1,122 @@
+.menu-box {
+  width: 46rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 26.57em) {
+  .menu-box {
+    width: 33rem;
+  }
+}
+
+.pick-player-box {
+  width: 100%;
+  margin: 3rem 0;
+  padding: 2.5rem 2.5rem 3rem 2.5rem;
+  background: #1f3641;
+  box-shadow: inset 0 -0.8rem 0 #10212a;
+  border-radius: 1.5rem;
+  text-align: center;
+}
+
+.pick-player-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #a8bfc9;
+}
+
+.player-sign-box {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #1a2a33;
+  border-radius: 1rem;
+  display: flex;
+}
+@media (max-width: 26.57em) {
+  .player-sign-box svg {
+    width: 3rem;
+  }
+}
+
+.x-sign-box,
+.o-sign-box {
+  width: 50%;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.x-sign-box:active,
+.o-sign-box:active {
+  scale: 0.96;
+}
+
+.x-sign-box svg,
+.o-sign-box svg {
+  fill: #a8bfc9;
+}
+
+.x-sign-box:hover,
+.o-sign-box:hover {
+  background-color: rgba(168, 191, 201, 0.05);
+}
+
+.player-sign {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.remember-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #a8bfc9;
+  opacity: 0.5;
+}
+
+.btn-game-cpu,
+.btn-game-player {
+  width: 100%;
+  padding: 2rem 0 2.5rem 0;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 1.25px;
+  color: #1a2a33;
+}
+
+.btn-game-cpu {
+  background-color: #f2b137;
+  box-shadow: inset 0 -0.8rem 0 #cc8b13;
+  margin-bottom: 1.8rem;
+}
+.btn-game-cpu:hover {
+  background-color: #ffc860;
+}
+
+.btn-game-player {
+  background-color: #31c3bd;
+  box-shadow: inset 0 -0.8rem 0 #118c87;
+}
+.btn-game-player:hover {
+  background-color: #65e9e4;
+}
+
+.selected {
+  background-color: #a8bfc9;
+  transition: all 0.2s;
+}
+.selected:hover {
+  background-color: #a8bfc9;
+}
+.selected svg {
+  fill: #1a2a33;
+}
